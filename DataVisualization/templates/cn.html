@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dataVisualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- 引入ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script src="https://fastly.jsdelivr.net/npm/d3-array"></script>
+    <script src="https://fastly.jsdelivr.net/npm/d3-geo"></script>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-size: large;">you have already start this project</h1>
+    </div>
+    <!-- ECharts DOM -->
+    <div id="main" style="width: 800px; height: 600px; background-color: antiquewhite;"></div>
+    <script type="text/javascript">
+        var ROOT_PATH = 'https://echarts.apache.org/examples';
+        var option;
+        var myChart = echarts.init(document.getElementById('main'));
+
+        myChart.showLoading();
+
+        axios.get(ROOT_PATH + '/data/asset/geo/USA.json')
+            .then(response => {
+                var usaJson = response.data;
+                var projection = d3.geoAlbersUsa();
+                myChart.hideLoading();
+                echarts.registerMap('USA', usaJson);
+                option = {
+                    title: {
+                        text: '美国人口估计（2012）',
+                        subtext: '数据来自 www.census.gov',
+                        sublink: 'http://www.census.gov/popest/data/datasets.html',
+                        left: 'right'
+                    },
+                    tooltip: {
+                        trigger: 'item',
+                        showDelay: 0,
+                        transitionDuration: 0.2
+                    },
+                    visualMap: {
+                        left: 'right',
+                        min: 500000,
+                        max: 38000000,
+                        inRange: {
+                            color: [
+                                '#313695', '#4575b4', '#74add1', '#abd9e9', 
+                                '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', 
+                                '#f46d43', '#d73027', '#a50026'
+                            ]
+                        },
+                        text: ['高', '低'],
+                        calculable: true
+                    },
+                    toolbox: {
+                        show: true,
+                        left: 'left',
+                        top: 'top',
+                        feature: {
+                            dataView: { readOnly: false },
+                            restore: {},
+                            saveAsImage: {}
+                        }
+                    },
+                    series: [
+                        {
+                            name: '美国人口估计',
+                            type: 'map',
+                            map: 'USA',
+                            projection: {
+                                project: function (point) {
+                                    return projection(point);
+                                },
+                                unproject: function (point) {
+                                    return projection.invert(point);
+                                }
+                            },
+                            emphasis: {
+                                label: {
+                                    show: true
+                                }
+                            },
+                            data: [
+                                { name: '阿拉巴马州', value: 4822023 },
+                                { name: '阿拉斯加州', value: 731449 },
+                                { name: '亚利桑那州', value: 6553255 },
+                                { name: '阿肯色州', value: 2949131 },
+                                { name: '加利福尼亚州', value: 38041430 },
+                                { name: '科罗拉多州', value: 5187582 },
+                                { name: '康涅狄格州', value: 3590347 },
+                                { name: '特拉华州', value: 917092 },
+                                { name: '哥伦比亚特区', value: 632323 },
+                                { name: '佛罗里达州', value: 19317568 },
+                                { name: '乔治亚州', value: 9919945 },
+                                { name: '夏威夷州', value: 1392313 },
+                                { name: '爱达荷州', value: 1595728 },
+                                { name: '伊利诺伊州', value: 12875255 },
+                                { name: '印第安纳州', value: 6537334 },
+                                { name: '爱荷华州', value: 3074186 },
+                                { name: '堪萨斯州', value: 2885905 },
+                                { name: '肯塔基州', value: 4380415 },
+                                { name: '路易斯安那州', value: 4601893 },
+                                { name: '缅因州', value: 1329192 },
+                                { name: '马里兰州', value: 5884563 },
+                                { name: '马萨诸塞州', value: 6646144 },
+                                { name: '密歇根州', value: 9883360 },
+                                { name: '明尼苏达州', value: 5379139 },
+                                { name: '密西西比州', value: 2984926 },
+                                { name: '密苏里州', value: 6021988 },
+                                { name: '蒙大拿州', value: 1005141 },
+                                { name: '内布拉斯加州', value: 1855525 },
+                                { name: '内华达州', value: 2758931 },
+                                { name: '新罕布什尔州', value: 1320718 },
+                                { name: '新泽西州', value: 8864590 },
+                                { name: '新墨西哥州', value: 2085538 },
+                                { name: '纽约州', value: 19570261 },
+                                { name: '北卡罗来纳州', value: 9752073 },
+                                { name: '北达科他州', value: 699628 },
+                                { name: '俄亥俄州', value: 11544225 },
+                                { name: '俄克拉荷马州', value: 3814820 },
+                                { name: '俄勒冈州', value: 3899353 },
+                                { name: '宾夕法尼亚州', value: 12763536 },
+                                { name: '罗德岛州', value: 1050292 },
+                                { name: '南卡罗来纳州', value: 4723723 },
+                                { name: '南达科他州', value: 833354 },
+                                { name: '田纳西州', value: 6456243 },
+                                { name: '德克萨斯州', value: 26059203 },
+                                { name: '犹他州', value: 2855287 },
+                                { name: '佛蒙特州', value: 626011 },
+                                { name: '弗吉尼亚州', value: 8185867 },
+                                { name: '华盛顿州', value: 6897012 },
+                                { name: '西弗吉尼亚州', value: 1855413 },
+                                { name: '威斯康星州', value: 5726398 },
+                                { name: '怀俄明州', value: 576412 },
+                                { name: '波多黎各', value: 3667084 }
+                            ]
+                        }
+                    ]
+                };
+                myChart.setOption(option);
+            })
+            .catch(error =>  {
+                console.error('Error fetching the USA geo data:', error);
+                myChart.hideLoading();
+            });
+    </script>
+</body>
+</html>

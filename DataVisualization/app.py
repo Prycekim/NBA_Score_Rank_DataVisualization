@@ -11,7 +11,7 @@ def index():
     # data = pd.read_csv('')
     # data = data.rename(columns={'':'','':''})
     # data = data.to_dict(orient='records')
-    return render_template('index.html')
+    return render_template('cn.html')
 
 @app.route('/api/getdata')
 def getdata():
