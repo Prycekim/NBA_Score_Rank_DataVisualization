@@ -7,10 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    # 把csv文件里的内容送到index.html
-    # data = pd.read_csv('')
-    # data = data.rename(columns={'':'','':''})
-    # data = data.to_dict(orient='records')
+    
     return render_template('1.html')
 
 @app.route('/api/getdata')
