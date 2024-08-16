@@ -2,11 +2,12 @@ var chartDom = document.getElementById('main');
 var myChart = echarts.init(chartDom);
 myChart.showLoading();
 function fetchData(){
-    
+  // "http://127.0.0.1:5000/static/data/中华人民共和国.json"
+  // "https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json"
     axios.get("https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json").then((res) => {
         myChart.hideLoading();
         echarts.registerMap("China", { geoJSON: res.data });
-        
+
         var option = {
             visualMap: {
               show: false,
@@ -162,18 +163,26 @@ function fetchData(){
 
                 })
                 .catch(function(error) {
-                    console.error('Error fetching map data:', error);
+                  myChart.showLoading(); // 先显示加载动画
+                  setTimeout(function() {
+                      console.error('请求有错误：', error);
+                      window.alert('请求有错误');
+                  }, 1000); 
                 });
             } else {
+                myChart.showLoading();
                 console.log('未找到该省份的信息');
+                window.alert('未找到该省份的信息')
             }
             });
           })
-        .catch(error => {
+          .catch(function(error) {
             myChart.showLoading();
-            console.error('Error fetching data:', error);
-            console.error('Error details:', error.response);
-        });
+            setTimeout(function() {
+                console.error('请求有错误：', error);
+                window.alert('请求有错误');
+            }, 1000); 
+          });
 }
 
 fetchData();
