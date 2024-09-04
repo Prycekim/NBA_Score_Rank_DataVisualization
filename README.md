@@ -67,7 +67,8 @@ The following is the technical document of echarts
 https://echarts.apache.org/zh/api.html#echarts
 
 Write two interfaces in our Flask backend. When the project starts, the user sends a request to your backend using JS, and then your backend requests the API to return data to the user's frontend
-Interacting between the api.xpy file and the data_fetch.js file
+
+Interacting between the api.py file and the data_fetch.js file
 
 ![image](https://github.com/user-attachments/assets/74ccd9ee-388d-417e-8325-39f82a48b047)
 
