@@ -25,7 +25,7 @@ I use three different colors to distinguish the positions of Eastern teams, West
 
 ![image](https://github.com/user-attachments/assets/2a035a4c-98a3-4ed9-ac8b-bd091407acdb)
 
-When you move the mouse to a state, all recent matches and upcoming matches in that state will be displayed on the right
+When you move the mouse to a state, all recent matches and upcoming matches in that state will be displayed on the right,And display the existing teams in the current state in the bubble
 
 ![image](https://github.com/user-attachments/assets/5383058d-0dcb-45fb-ad3e-39c6b75c8451)
 
