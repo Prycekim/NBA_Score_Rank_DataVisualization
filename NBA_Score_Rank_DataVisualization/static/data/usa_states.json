@@ -1,0 +1,195 @@
+{
+    "states": [
+        {
+            "id": 2,
+            "chinese_name": "马萨诸塞州",
+            "english_name": "Massachusetts",
+            "teams": [
+                "波士顿凯尔特人"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "纽约州",
+            "english_name": "New York",
+            "teams": [
+                "布鲁克林篮网",
+                "纽约尼克斯"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "宾夕法尼亚州",
+            "english_name": "Pennsylvania",
+            "teams": [
+                "费城76人"
+            ]
+        },
+        {
+            "id": 3,
+            "chinese_name": "安大略省(加拿大)",
+            "english_name": "Ontario",
+            "teams": [
+                "多伦多猛龙"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "伊利诺伊州",
+            "english_name": "Illinois",
+            "teams": [
+                "芝加哥公牛"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "俄亥俄州",
+            "english_name": "Ohio",
+            "teams": [
+                "克里夫兰骑士"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "密歇根州",
+            "english_name": "Michigan",
+            "teams": [
+                "底特律活塞"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "印第安纳州",
+            "english_name": "Indiana",
+            "teams": [
+                "印第安纳步行者"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "佛罗里达州",
+            "english_name": "Florida",
+            "teams": [
+                "迈阿密热火",
+                "奥兰多魔术"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "威斯康星州",
+            "english_name": "Wisconsin",
+            "teams": [
+                "密尔沃基雄鹿"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "乔治亚州",
+            "english_name": "Georgia",
+            "teams": [
+                "亚特兰大老鹰"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "北卡罗来纳州",
+            "english_name": "North Carolina",
+            "teams": [
+                "夏洛特黄蜂"
+            ]
+        },
+        {
+            "id": 2,
+            "chinese_name": "华盛顿特区",
+            "english_name": "Washington D.C.",
+            "teams": [
+                "华盛顿奇才"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "德克萨斯州",
+            "english_name": "Texas",
+            "teams": [
+                "达拉斯小牛",
+                "休斯顿火箭",
+                "圣安东尼奥马刺"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "科罗拉多州",
+            "english_name": "Colorado",
+            "teams": [
+                "丹佛掘金"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "加利福尼亚州",
+            "english_name": "California",
+            "teams": [
+                "金州勇士",
+                "洛杉矶快船",
+                "洛杉矶湖人",
+                "萨克拉门托国王"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "田纳西州",
+            "english_name": "Tennessee",
+            "teams": [
+                "孟菲斯灰熊"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "明尼苏达州",
+            "english_name": "Minnesota",
+            "teams": [
+                "明尼苏达森林狼"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "路易斯安那州",
+            "english_name": "Louisiana",
+            "teams": [
+                "新奥尔良鹈鹕"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "俄克拉荷马州",
+            "english_name": "Oklahoma",
+            "teams": [
+                "俄克拉荷马城雷霆"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "亚利桑那州",
+            "english_name": "Arizona",
+            "teams": [
+                "菲尼克斯太阳"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "俄勒冈州",
+            "english_name": "Oregon",
+            "teams": [
+                "波特兰开拓者"
+            ]
+        },
+        {
+            "id": 1,
+            "chinese_name": "犹他州",
+            "english_name": "Utah",
+            "teams": [
+                "犹他爵士"
+            ]
+        }
+    ]
+}
