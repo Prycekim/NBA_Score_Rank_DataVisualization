@@ -1,0 +1,355 @@
+{
+	"reason":"查询成功",
+	"result":{
+		"title":"美国职业篮球联赛",
+		"duration":"",
+		"matchs":[
+			{
+				"date": "2024-07-22",
+				"week": "周一",
+				"list": [
+				  {
+					"time_start": "07:30",
+					"status": "已结束",
+					"status_text": "比赛结束",
+					"team1": "洛杉矶湖人",
+					"team2": "金州勇士",
+					"team1_score": "108",
+					"team2_score": "112"
+				  },
+				  {
+					"time_start": "10:00",
+					"status": "已结束",
+					"status_text": "比赛结束",
+					"team1": "波士顿凯尔特人",
+					"team2": "迈阿密热火",
+					"team1_score": "102",
+					"team2_score": "98"
+				  }
+				]
+			  },
+			{
+				"date": "2024-07-23",
+				"week": "周二",
+				"list": [
+				  {
+					"time_start": "08:00",
+					"status": "已结束",
+					"status_text": "比赛结束",
+					"team1": "芝加哥公牛",
+					"team2": "纽约尼克斯",
+					"team1_score": "112",
+					"team2_score": "105"
+				  }
+				]
+			  },
+			{
+				"date":"2024-07-23",
+				"week":"周二",
+				"list":[
+					{
+						"time_start":"08:00",
+						"status":"3",
+						"status_text":"完赛",
+						"team1":"孟菲斯灰熊",
+						"team2":"迈阿密热火",
+						"team1_score":"118",
+						"team2_score":"120"
+					}
+				]
+			},
+			{
+				"date": "2024-07-24",
+				"week": "周三",
+				"list": [
+					{
+						"time_start": "09:00",
+						"status": "3",
+						"status_text": "完赛",
+						"team1": "洛杉矶湖人",
+						"team2": "波士顿凯尔特人",
+						"team1_score": "112",
+						"team2_score": "115"
+					},
+					{
+						"time_start": "11:30",
+						"status": "3",
+						"status_text": "完赛",
+						"team1": "金州勇士",
+						"team2": "达拉斯独行侠",
+						"team1_score": "125",
+						"team2_score": "120"
+					},
+					{
+						"time_start": "14:00",
+						"status": "3",
+						"status_text": "完赛",
+						"team1": "密尔沃基雄鹿",
+						"team2": "布鲁克林篮网",
+						"team1_score": "108",
+						"team2_score": "102"
+					}
+				]
+			},
+			{
+				"date":"2024-10-23",
+				"week":"周三",
+				"list":[
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"纽约尼克斯",
+						"team2":"波士顿凯尔特人",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"10:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"明尼苏达森林狼",
+						"team2":"洛杉矶湖人",
+						"team1_score":"-",
+						"team2_score":"-"
+					}
+				]
+			},
+			{
+				"date":"2024-10-24",
+				"week":"周四",
+				"list":[
+					{
+						"time_start":"07:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"印第安纳步行者",
+						"team2":"底特律活塞",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"克里夫兰骑士",
+						"team2":"多伦多猛龙",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"布鲁克林篮网",
+						"team2":"亚特兰大老鹰",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"密尔沃基雄鹿",
+						"team2":"费城76人",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"奥兰多魔术",
+						"team2":"迈阿密热火",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"08:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"夏洛特黄蜂",
+						"team2":"休斯顿火箭",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"08:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"芝加哥公牛",
+						"team2":"新奥尔良鹈鹕",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"09:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"孟菲斯灰熊",
+						"team2":"犹他爵士",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"10:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"菲尼克斯太阳",
+						"team2":"洛杉矶快船",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"10:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"金州勇士",
+						"team2":"波特兰开拓者",
+						"team1_score":"-",
+						"team2_score":"-"
+					}
+				]
+			},
+			{
+				"date":"2024-10-25",
+				"week":"周五",
+				"list":[
+					{
+						"time_start":"07:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"波士顿凯尔特人",
+						"team2":"华盛顿奇才",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"圣安东尼奥马刺",
+						"team2":"达拉斯独行侠",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"10:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"俄克拉荷马城雷霆",
+						"team2":"丹佛掘金",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"10:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"明尼苏达森林狼",
+						"team2":"萨克拉门托国王",
+						"team1_score":"-",
+						"team2_score":"-"
+					}
+				]
+			},
+			{
+				"date":"2024-10-26",
+				"week":"周六",
+				"list":[
+					{
+						"time_start":"07:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"布鲁克林篮网",
+						"team2":"奥兰多魔术",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"费城76人",
+						"team2":"多伦多猛龙",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"底特律活塞",
+						"team2":"克里夫兰骑士",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"印第安纳步行者",
+						"team2":"纽约尼克斯",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"07:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"夏洛特黄蜂",
+						"team2":"亚特兰大老鹰",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"08:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"芝加哥公牛",
+						"team2":"密尔沃基雄鹿",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"08:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"孟菲斯灰熊",
+						"team2":"休斯顿火箭",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"09:30",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"金州勇士",
+						"team2":"犹他爵士",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"10:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"菲尼克斯太阳",
+						"team2":"洛杉矶湖人",
+						"team1_score":"-",
+						"team2_score":"-"
+					},
+					{
+						"time_start":"10:00",
+						"status":"1",
+						"status_text":"未开赛",
+						"team1":"新奥尔良鹈鹕",
+						"team2":"波特兰开拓者",
+						"team1_score":"-",
+						"team2_score":"-"
+					}
+				]
+			}
+		]
+	},
+	"error_code":0
+}
