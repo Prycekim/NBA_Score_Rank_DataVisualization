@@ -58,6 +58,8 @@ Then we need to introduce echarts in the index.html page
 
 Because the NBA includes the Toronto Raptors, we need to separately search for a Canadian map JSON data to extract data for Ontario and add it to the US map JSON data
 
+![image](https://github.com/user-attachments/assets/e90deca9-ad8b-4301-88be-6ce71c6d4d3f)
+
 Then we can present the map data of the United States on the page through JavaScript
 
 The following is the technical document of echarts
