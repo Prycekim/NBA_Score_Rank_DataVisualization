@@ -37,6 +37,9 @@ This is the file tree structure of this project
 
 The NBA game data and team ranking data for this project are sourced from an open interface
 
+![image](https://github.com/user-attachments/assets/6f88d386-3d42-4ca3-b6d3-080016ad3aa7)
+
+
 Here are the interface addresses
 
 https://www.juhe.cn/docs/api/id/92
