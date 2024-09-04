@@ -21,6 +21,8 @@ Strictly speaking, the map presented in this project is not the map of a specifi
 
 When you enter the project, present the map and ranking data of various NBA teams
 
+I use three different colors to distinguish the positions of Eastern teams, Western teams, and Toronto Raptors
+
 ![image](https://github.com/user-attachments/assets/2a035a4c-98a3-4ed9-ac8b-bd091407acdb)
 
 When you move the mouse to a state, all recent matches and upcoming matches in that state will be displayed on the right
@@ -70,6 +72,10 @@ Interacting between the api.xpy file and the data_fetch.js file
 After the project starts, we listen in index.js to ensure that both interfaces return results. Then, we start the functions in index.js to display the map and data on the page
 
 ![image](https://github.com/user-attachments/assets/dda794ac-f608-4ab7-b766-a33c671890a2)
+
+Due to the recent NBA offseason, I am temporarily using fake JSON data in the project
+If you need real data, don't forget to replace the interface address in api.py
+![image](https://github.com/user-attachments/assets/8ff06927-6183-4a3b-bc63-04ca96b79cbf)
 
 
 If anyone has better suggestions or questions, please feel free to discuss 😀
